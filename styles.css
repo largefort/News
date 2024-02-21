@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#news-feed {
+    flex: 1;
+}
+
+#user-post {
+    flex: 1;
+    background-color: red;
+    color: black;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    background-color: black;
+    color: red;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
